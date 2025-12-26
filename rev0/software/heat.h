@@ -29,10 +29,11 @@
 #define MAX_OUT_TEMP 65
 #define MIN_DIFF_TEMP 5
 #define MAX_DIFF_TEMP 40
-#define THRESHOLD_TEMP 10
+#define THRESHOLD_TEMP 5
 #define	STEP_CORR_TEMP 3
 #define MAX_CORR_TEMP 9
-#define TIME_OUT 250
+#define TIME_OUT 200
+#define TIME_OUT_SHORT 20
 #define NUM_REPEAT 3
 #define NUM_CYCLES_TIMEOUT 18000	//~30 мин
 
